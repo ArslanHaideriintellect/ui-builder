@@ -1,0 +1,31 @@
+{
+  "name": "next-starter-tailwind",
+  "version": "1.1.0",
+  "description": "Tailwind ui builder",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "export": "npm run build && next export",
+    "start": "next start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "license": "MIT",
+  "dependencies": {
+    "aos": "^2.3.4",
+    "next": "9.3.6",
+    "react": "16.13.1",
+    "react-beautiful-dnd": "^13.0.0",
+    "react-beautiful-dnd-next": "^11.0.5",
+    "react-dom": "16.13.1",
+    "uuid": "^8.0.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "9.7.6",
+    "tailwindcss": "1.4.4"
+  }
+}

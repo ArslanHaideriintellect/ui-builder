@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.custom-side-bar::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+.custom-side-bar::-webkit-scrollbar {
+    width: 10px;
+}
+
+.custom-side-bar::-webkit-scrollbar-track {
+    background: transparent;
+}
+.custom-open-menu-open{
+    left: 230px;
+}
+.custom-open-menu-close{
+    left: -230px;
+}
+.custom-menu-bar{
+    z-index:2;
+}
+.opening-sidebar{
+    z-index: 1;
+    width: 450px;
+    position: absolute;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+.main-canvas{
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.bloc-image:hover {
+    -ms-transform: scale(1.05); /* IE 9 */
+    -webkit-transform: scale(1.05); /* Safari 3-8 */
+    transform: scale(1.05);
+}
+.bloc-image {
+    transition: transform .2s;
+}
+.custom-dropable-area::-webkit-scrollbar-thumb {
+    background: #888;
+}
+.custom-dropable-area::-webkit-scrollbar {
+    width: 10px;
+}
+.custom-dropable-area::-webkit-scrollbar-track {
+    background: transparent;
+}
